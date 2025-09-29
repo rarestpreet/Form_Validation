@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div id="formdiv">
+        <form name="form" id="form">
+            <div>
+                <label>Name
+                    <input type="text" id="name" placeholder="Enter your name" name="name">
+                </label>
+                <span id="nameError" class="error"></span>
+            </div>
+            <div>
+                <label for="age">Age
+                    <input type="number" id="age" placeholder="Enter your age" name="age">
+                </label>
+                <span id="ageError" class="error"></span>
+            </div>
+            <div>
+                <label for="email">Email
+                    <input type="email" id="email" placeholder="Enter your email" name="email">
+                </label>
+                <span id="emailError" class="error"></span>
+            </div>
+            <div>
+                <label for="password">Password
+                    <input type="password" id="password" placeholder="Enter your password" name="password">
+                </label>
+                <span id="passwordError" class="error"></span>
+            </div>
+            <input type="submit" name="submit">
+        </form>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
